@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment and Secrets
+.env
+*.env
+secrets.toml
+
+# Jupyter / Colab Notebooks
+.ipynb_checkpoints/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and Runtime
+*.log
+*.pid
+*.seed
+*.bak
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/credentials.toml
