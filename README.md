@@ -79,5 +79,5 @@ class SoilAnalysis(BaseModel):
 🌾 Recommended Crops
 💡 Suggestions
 
-**Run the App**
+**Run the App:**
 streamlit run main.py
