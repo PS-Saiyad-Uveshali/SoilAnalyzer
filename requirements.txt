@@ -1,5 +1,8 @@
-streamlit
-langchain
-langchain-google-genai
-pydantic
+langchain>=0.2.16
+langchain-google-genai>=2.0.0
+langchain-text-splitters>=0.2.2
+langchain-chroma>=0.1.4
+chromadb>=0.5.5
 PyMuPDF
+streamlit
+pydantic>=2

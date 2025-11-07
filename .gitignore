@@ -1,4 +1,6 @@
+# ------------------------------
 # Python
+# ------------------------------
 __pycache__/
 *.py[cod]
 *.pyo
@@ -11,24 +13,36 @@ venv/
 ENV/
 .venv/
 
+# ------------------------------
 # Environment and Secrets
+# ------------------------------
 .env
 *.env
 secrets.toml
+streamlit_secrets.toml
+.stremlit/secrets.toml
 
+# ------------------------------
 # Jupyter / Colab Notebooks
+# ------------------------------
 .ipynb_checkpoints/
 
-# VSCode / IDEs
+# ------------------------------
+# IDEs / Editors
+# ------------------------------
 .vscode/
 .idea/
 *.code-workspace
 
+# ------------------------------
 # OS generated files
+# ------------------------------
 .DS_Store
 Thumbs.db
 
+# ------------------------------
 # Logs and Runtime
+# ------------------------------
 *.log
 *.pid
 *.seed
@@ -36,6 +50,35 @@ Thumbs.db
 *.swp
 *.swo
 
+# ------------------------------
 # Streamlit
+# ------------------------------
 .streamlit/config.toml
 .streamlit/credentials.toml
+.streamlit/sessions/
+.streamlit/static/
+
+# ------------------------------
+# Chroma Vector Database
+# ------------------------------
+chroma_db/
+*.sqlite3
+*.db
+
+# ------------------------------
+# Uploaded Files / Temp Data
+# ------------------------------
+uploads/
+temp/
+tmp/
+*.pdf
+*.docx
+*.xlsx
+
+# ------------------------------
+# Caches
+# ------------------------------
+.cache/
+__cache__/
+langchain_store/
+langchain/
